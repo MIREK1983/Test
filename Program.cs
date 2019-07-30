@@ -11,7 +11,7 @@ namespace ReadGaebFiles
     {
         static void Main(string[] args)
         {
-            string file = File.ReadAllText(@"");
+            string file = File.ReadAllText(@"test");
         }
     }
 }
