@@ -11,7 +11,18 @@ namespace ReadGaebFiles
     {
         static void Main(string[] args)
         {
-            string file = File.ReadAllText(@"test");
+            string[] file = File.ReadAllLines(@"C:\Users\Mirek\Desktop\Neubau_KITA_Wismarer_Werkstaett_1923095.p93");
+        
+            foreach (string line in file)
+	        {
+                if (line=="#begin[GAEB]")
+	            {
+                    
+
+	            }
+                Console.WriteLine(line);
+	        }
+
         }
     }
 }
