@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BO
 {
-    class BestKunde
+    public class BestKunde
     {
         public string IDNr { get; set; }
         public KundenAdresse KundenAdresse { get; set; }

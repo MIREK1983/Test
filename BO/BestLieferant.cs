@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BO
 {
-    class BestLieferant
+    public class BestLieferant
     {
         public LieferAdresse LieferAdresse { get; set; }
     }

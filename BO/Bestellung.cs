@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BO
 {
-    class Bestellung
+    public class Bestellung
     {
         public string Dp { get; set; }
         public BestInfo BestInfo { get; set; }

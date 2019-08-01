@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BO
 {
-    class GAEBInfo
+    public class GAEBInfo
     {
         public string Version { get; set; }
         public string VersJahr { get; set; }

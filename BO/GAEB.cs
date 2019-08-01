@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace BO
 {
-    class GAEB
+    public class GAEB
     {
         public GAEBInfo GAEBInfo { get; set; }
-        public PrjInfo Prj { get; set; }
+        public PrjInfo PrjInfo { get; set; }
         public Bestellung Bestellung { get; set; }
     }
 }

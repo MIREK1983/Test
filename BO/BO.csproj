@@ -48,7 +48,6 @@
     <Compile Include="BestInfo.cs" />
     <Compile Include="BestKunde.cs" />
     <Compile Include="BestLieferant.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="GAEB.cs" />
     <Compile Include="GAEBInfo.cs" />
     <Compile Include="PrjInfo.cs" />

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BO
 {
-    class BestPosition
+    public class BestPosition
     {
         public string LfdNr { get; set; }
         public string PosKennZ { get; set; }
